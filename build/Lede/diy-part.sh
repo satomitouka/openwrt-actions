@@ -5,10 +5,10 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 #第三方仓库
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git haibo https://gh.1888866.xyz/https://github.com/haiibo/openwrt-packages' >>feeds.conf.default
-echo 'src-git liuran001 https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+#echo 'src-git haibo https://gh.1888866.xyz/https://github.com/haiibo/openwrt-packages' >>feeds.conf.default
+#echo 'src-git liuran001 https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 
 # 后台IP设置
 export Ipv4_ipaddr="10.10.100.1"            # 修改openwrt后台地址(填0为关闭)
