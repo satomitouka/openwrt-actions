@@ -10,6 +10,9 @@
 #echo 'src-git haibo https://gh.1888866.xyz/https://github.com/haiibo/openwrt-packages' >>feeds.conf.default
 #echo 'src-git liuran001 https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 
+git clone https://github.com/haiibo/openwrt-packages package/luci-app-onliner
+
+
 # 后台IP设置
 export Ipv4_ipaddr="10.10.100.1"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.0.0.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
