@@ -10,6 +10,9 @@
 #echo 'src-git haibo https://gh.1888866.xyz/https://github.com/haiibo/openwrt-packages' >>feeds.conf.default
 #echo 'src-git liuran001 https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 
+#23.05
+sed -i 's/src-git luci https:\/\/github.com\/coolsnowwolf\/luci/src-git luci https:\/\/github.com\/coolsnowwolf\/luci.git;openwrt-23.05/g' feeds.conf.default
+
 
 # 后台IP设置
 export Ipv4_ipaddr="10.10.100.1"            # 修改openwrt后台地址(填0为关闭)
